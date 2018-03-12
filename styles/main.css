@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed|Space+Mono');
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+article, aside, footer, header, nav, section {
+  display: block
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0
+}
+
+figcaption, figure, main {
+  display: block
+}
+
+figure {
+  margin: 1em 40px
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible
+}
+
+pre {
+  font-family: 'Space Mono', sans-serif;
+  font-size: 1em
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects
+}
+
+a:active, a:hover {
+  outline-width: 0
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted
+}
+
+b, strong {
+  font-weight: inherit;
+  font-weight: bolder
+}
+
+code, kbd, samp {
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 1em
+}
+
+dfn {
+  font-style: italic
+}
+
+mark {
+  background-color: #ff0;
+  color: #000
+}
+
+small {
+  font-size: 80%
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sub {
+  bottom: -.25em
+}
+
+sup {
+  top: -.5em
+}
+
+audio, video {
+  display: inline-block
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0
+}
+
+img {
+  border-style: none
+}
+
+ bdvcx:not(:root) {
+  overflow: hidden
+}
+
+button, input, optgroup, select, textarea {
+  font-family: 'Space Mono', sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0
+}
+
+button, input {
+  overflow: visible
+}
+
+button, select {
+  text-transform: none
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+  -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+  border-style: none;
+  padding: 0
+}
+
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+  outline: 1px dotted ButtonText
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline
+}
+
+textarea {
+  overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+details, menu {
+  display: block
+}
+
+summary {
+  display: list-item
+}
+
+canvas {
+  display: inline-block
+}
+
+[hidden], template {
+  display: none
+}
+
+.site-footer {
+  position: fixed;
+  bottom: 50%;
+  right: 15px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+  width: 0;
+  white-space: nowrap;
+  margin-bottom: -228px;
+  visibility: hidden;
+  opacity: 0
+}
+
+.site-footer a, .site-footer span {
+  display: inline-block;
+  padding: 0 7px
+}
+
+.site-footer .logo {
+  padding: 0 14px
+}
+
+.site-footer .logo img {
+  width: 120px;
+  height: auto
+}
+
+.site-footer a:hover {
+  color: #d23f20
+}
+
+.credits {
+  position: fixed;
+  bottom: 50%;
+  left: 15px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: bottom right;
+  transform-origin: bottom right;
+  width: 0;
+  white-space: nowrap;
+  margin-bottom: 105px;
+  font-size: 10px;
+  visibility: hidden;
+  opacity: 0
+}
+
+.credits a:hover, .site-footer a:hover {
+  color: #d23f20
+}
+
+body, html {
+  overflow: hidden
+}
+
+body {
+  margin: 0;
+  background: #000;
+  font-family: 'Saira Condensed', sans-serif;
+  letter-spacing: .1em
+}
+
+a, body {
+  color: #fff
+}
+
+a {
+  text-decoration: none
+}
+
+* {
+  box-sizing: border-box
+}
+
+.site-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0
+}
+
+.site-wrapper, canvas {
+  width: 100%;
+  height: 100%
+}
+
+::-moz-selection {
+  background: #d23f20;
+  color: #ff0
+}
+
+::selection {
+  background: #d23f20;
+  color: #ff0
+}
+
+.dragger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0
+}
+
+.dragger>div, .dragger__inner {
+  width: 10000px;
+  height: 100%
+}
+
+#frame {
+  top: 0;
+  left: 50%;
+  height: 100vh;
+  width: auto;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+#frame, .content {
+  position: absolute;
+  pointer-events: none
+}
+
+.content {
+  z-index: 1;
+  display: none;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: .1em;
+  width: 100%;
+  text-align: center
+}
+
+.content .author {
+  font-size: 2.5vh
+}
+
+.content .title {
+  font-size: 6.5vh;
+  padding: 0 50px
+}
+
+.content .subtitle {
+  font-size: 2vh;
+  margin-top: .7em
+}
+
+.content .subtitle div {
+  margin-top: .7em;
+  font-size: 16px;
+}
+
+.button {
+  bottom: 15vh;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: inline-block;
+  color: #fff;
+  letter-spacing: .1em;
+  font-size: 2vh;
+  margin-top: 2em;
+  text-decoration: none;
+  /* border: 3px solid #fff; */
+  padding: 1em 1.5em;
+  background: #cf1cec;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0;
+  visibility: hidden
+}
+
+.button:hover {
+  background: #6e097e;
+}
+
+.button > a:hover {
+  opacity: 0.5;
+}
+
+#artwork, .button {
+  position: absolute;
+  left: 50%
+}
+
+#artwork {
+  display: none;
+  pointer-events: none;
+  top: 50%;
+  margin: -12.5vh 0 0 -12.5vh;
+  width: 25vh;
+  height: 25vh
+}
+
+#cover, #unsupported {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  font-size: 2vh;
+  background: #000;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center
+}
+
+#cover>*, #unsupported>* {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+#cover span, #unsupported span {
+  z-index: 1;
+  font-size: 2vh;
+  font-family: 'Space Mono', monospace;
+}
+
+#cover .loaded, #unsupported .loaded {
+  font-family: 'Space Mono', monospace;
+  font-size: 12vh;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  color: #242424;
+}
+
+#cover .headphones, #unsupported .headphones {
+  z-index: 1;
+  bottom: 20vh;
+  top: auto;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  font-size: 2vh;
+  width: 100%;
+  padding-bottom: 1.1em
+}
+
+#unsupported {
+  display: none;
+  text-align: center;
+  padding: 15px
+}
+
+#unsupported span {
+  font-size: 3vh
+}
+
+#unsupported a {
+  text-decoration: underline
+}
+
+#instructions {
+  position: absolute;
+  left: 50%;
+  bottom: 20vh;
+  font-size: 2vh;
+  color: #fff;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 30vh;
+  text-align: center;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
+
+#instructions span {
+  display: inline-block;
+  text-align: center
+}
+
+#instructions div {
+  width: 100%;
+  margin: 0 auto;
+  border-top: 2px solid #fff;
+  margin-top: 1em;
+  -webkit-transform-origin: right;
+  transform-origin: right;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0)
+}
+
+@media screen and (max-aspect-ratio:1/1) {
+  #frame {
+    width: 100vw
+  }
+  .button {
+    bottom: 20.8vh;
+    z-index: 1
+  }
+}
+
+@media screen and (max-width:599px) and (min-aspect-ratio:1/1) {
+  .site-footer {
+    font-size: 10px;
+    margin-bottom: -130px
+  }
+  .site-footer a, .site-footer span {
+    padding: 0 2px
+  }
+  .site-footer .logo img {
+    width: 70px
+  }
+}
+
+@media screen and (max-width:599px) and (max-aspect-ratio:1/1) {
+  .credits, .site-footer {
+    -webkit-transform: none;
+    transform: none;
+    margin-bottom: 0;
+    left: 0;
+    right: auto;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    white-space: normal
+  }
+  .credits span, .site-footer span {
+    display: block;
+    margin-bottom: .6em
+  }
+  .credits {
+    bottom: 0
+  }
+}
